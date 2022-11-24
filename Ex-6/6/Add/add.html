@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title> GET METHOD</title>
+        <style>
+            .div{
+                background-color: aqua;
+                color: brown;
+            }
+            .dic1{
+                font-size: larger;
+                font-family: 'Times New Roman', Times, serif;
+                font-style: italic;
+                font-weight: bold;
+                color:black;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="http://localhost:8000/login" method="get">
+            <center><div class="div">
+            <h1>Furniture Order</h1></div></center><div  class="dic1">
+            Enter your name :<input type="text" name="username" value=""><br><br>
+            Enter your email:<input type="text" name="email" value=""><br><br>
+            Enter Father's Name:<input type="text" name="father"><br><br>
+            Enter Mother's Name:<input type="text" name="mother"><br><br>
+            Enter Mobile Number:<input type="number" name="phone"><br><br>
+            Age:<input type="number" name="age"><br><br>
+            Gender:<br>
+            <input type="radio" name="radio1" value="Male">Male<br>
+            <input type="radio" name="radio1" value="Female">Female<br>
+            Types of wood:<br>
+            <input type="checkbox" name="checkbox2" value="Teak">Teak<br>
+            <input type="checkbox" name="checkbox2" value="Sandal">Sandal<br>
+            <input type="checkbox" name="checkbox2" value="PlyWood">PlyWood<br>
+            <input type="checkbox" name="checkbox2" value="Bamboo">Bamboo<br>
+            House hold Items:<br>
+            <input type="checkbox" name="checkbox1" value="BEd">Bed<br>
+            <input type="checkbox" name="checkbox1" value="Chair">Chair<br>
+            <input type="checkbox" name="checkbox1" value="Dining Table">Dining Table<br>
+            <input type="checkbox" name="checkbox1" value="Sofa">Sofa<br>
+            Address:<br>
+            <input type="text-area" name="address" width="10%" height="10%"><br>
+            <center><input type="submit" name="login" value="login"></center></div>
+        </form>
+    </body>
+</html>
